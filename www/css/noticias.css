@@ -1,0 +1,45 @@
+.card,
+#form-noticia {
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 767.98px) {
+
+    h3 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    #form-noticia {
+        background-color: #f8f9fa !important;
+        border: 2px solid #e3e6f0 !important;
+        border-radius: 15px !important;
+    }
+
+    .btn-sm {
+        padding: 8px 12px !important;
+        font-size: 1rem !important;
+    }
+}
+
+/* Laaptop **/
+@media screen and (min-width: 992px) {}
+
+
+
+/*Pc**/
+@media screen and (min-width: 1200px) {}
+
+
+@media (min-width: 992px) {
+
+    #form-noticia:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    }
+
+    .table thead th {
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}
